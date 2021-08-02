@@ -1,0 +1,54 @@
+body{
+    background-color: #212529;
+    color: white;
+}
+
+.bg-mycolor{
+    background-color: #161616;
+    color: #fff;
+}
+.bg-mycolor a{
+    color: #FFF;
+}
+
+table a{
+    color:#fff;
+    text-decoration: none;
+}
+
+table a:hover{
+    color:red;
+}
+.bg-mycolor a:hover{
+    color:red;
+}
+
+.modal-colors{
+    background-color: #212529;
+    color: #fff;
+}
+
+.comment{
+    margin-bottom: 15px;
+    background-color: #282d33;
+    padding: 15px;
+}
+div.comment:nth-child(odd) {
+    background-color: #484c4f;
+}
+
+.comment-by{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 700px){
+    .table tbody tr td:nth-child(2){
+        display: none;
+    }
+    .table{
+        font-weight: bold;
+    }
+}
