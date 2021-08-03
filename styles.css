@@ -43,11 +43,18 @@ div.comment:nth-child(odd) {
     margin-top: 10px;
 }
 
-
+/* Media options */
 @media screen and (max-width: 700px){
     .table tbody tr td:nth-child(2){
         display: none;
     }
+    .table{
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1100px){
+    
     .table{
         font-weight: bold;
     }
